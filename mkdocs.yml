@@ -1,0 +1,7 @@
+site_name: My Website
+site_url: https://DerekBolyard.com/
+nav:
+    - Home: index.md
+    - About: about.md
+theme:
+  name: bootstrap386
