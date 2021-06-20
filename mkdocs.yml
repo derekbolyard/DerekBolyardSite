@@ -1,5 +1,5 @@
 site_name: My Website
-site_url: https://DerekBolyard.com/
+site_url: https://derekbolyard.com/
 nav:
     - Home: index.md
     - About: about.md
