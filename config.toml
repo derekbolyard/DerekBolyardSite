@@ -1,0 +1,84 @@
+baseurl = "https://derekbolyard.com"
+title = "derekbolyard.com"
+theme = "hugo-coder"
+languagecode = "en"
+defaultcontentlanguage = "en"
+
+paginate = 10
+timeout = 120000
+
+# We don't want to canonify URLs because it prevents us from
+# deploying drafts of the site to alternate hosts.
+canonifyurls = false
+
+pygmentsstyle = "colorful"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+
+buildFuture = true
+
+[markup]
+  [markup.highlight]
+    style = "native"
+  [markup.goldmark.renderer]
+    # Allow Markdown to include embedded HTML.
+    unsafe= true
+
+[permalinks]
+    posts = "/:filename/"
+
+
+[params]
+    author = "Derek Bolyard"
+    info = "TBD stuff about me"
+    description = "TBD what is this about"
+    keywords = "blog,developer,personal"
+    avatarurl = "images/avatar.jpg"
+
+    favicon_32 = "/images/favicon/favicon-32x32.png"
+    favicon_16 = "/images/favicon/favicon-16x16.png"
+
+    hidecredits = false
+    hidecopyright = false
+
+    rtl = false
+
+    custom_css = ["css/main.css"]
+
+    photoWidths = [300, 600, 800, 1200]
+
+    talkyardServerUrl = "https://comments.mtlynch.io"
+    talkyardScriptUrl = "https://c1.ty-cdn.net/-/talkyard-comments.min.js"
+
+[imaging]
+quality = 90
+resampleFilter = "Lanczos"
+
+# Social links
+[[params.social]]
+    name = "Github"
+    icon = "fab fa-github fa-2x"
+    weight = 1
+    url = "https://github.com/derekbolyard/"
+
+# Menu links
+[[menu.main]]
+    name = "Blog"
+    weight = 1
+    url  = "/posts/"
+[[menu.main]]
+    name = "Retrospectives"
+    weight = 2
+    url = "/retrospectives/"
+[[menu.main]]
+    name = "Projects"
+    weight = 3
+    url = "/projects/"
+[[menu.main]]
+    name = "Book Reports"
+    weight = 4
+    url = "/book-reports/"
+[[menu.main]]
+    name = "About"
+    weight = 5
+    url = "/about/"

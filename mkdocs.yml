@@ -1,7 +1,0 @@
-site_name: My Website
-site_url: http://www.derekbolyard.com/
-nav:
-    - Home: index.md
-    - About: about.md
-theme:
-  name: bootstrap386
