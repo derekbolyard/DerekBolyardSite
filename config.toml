@@ -30,8 +30,8 @@ buildFuture = true
 
 [params]
     author = "Derek Bolyard"
-    info = "TBD stuff about me"
-    description = "TBD what is this about"
+    info = "Triplet, Software Engineer, Cat-Lover, and soon maybe even Writer."
+    description = "A place for me to brain-dump to the internet. (and share cat pics)"
     keywords = "blog,developer,personal"
     avatarurl = "images/avatar.jpg"
 
@@ -67,18 +67,10 @@ resampleFilter = "Lanczos"
     weight = 1
     url  = "/posts/"
 [[menu.main]]
-    name = "Retrospectives"
-    weight = 2
-    url = "/retrospectives/"
-[[menu.main]]
     name = "Projects"
-    weight = 3
+    weight = 2
     url = "/projects/"
 [[menu.main]]
-    name = "Book Reports"
-    weight = 4
-    url = "/book-reports/"
-[[menu.main]]
     name = "About"
-    weight = 5
+    weight = 3
     url = "/about/"
