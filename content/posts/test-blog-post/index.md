@@ -14,4 +14,4 @@ images:
 
 Rest in peace, little buddy.
 
-{{< img src="Chuckie.png" alt="A bird named Chuckie." >}}
+![A bird named Chuckie](Chuckie.jpg)
