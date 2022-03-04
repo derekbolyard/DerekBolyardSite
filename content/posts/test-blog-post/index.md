@@ -13,3 +13,5 @@ images:
 ## His name was Chuckie.
 
 Rest in peace, little buddy.
+
+{{< img src="Chuckie.png" alt="A bird named Chuckie." >}}
