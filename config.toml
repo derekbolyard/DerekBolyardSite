@@ -47,9 +47,8 @@ buildFuture = true
 
     photoWidths = [300, 600, 800, 1200]
 
-    talkyardServerUrl = "https://comments.mtlynch.io"
-    talkyardScriptUrl = "https://c1.ty-cdn.net/-/talkyard-comments.min.js"
-
+    talkyardServerUrl = "https://site-12tdie7d8l.talkyard.net"
+	talkyardScriptUrl = "https://c1.ty-cdn.net/-/talkyard-comments.min.js"
 [imaging]
 quality = 90
 resampleFilter = "Lanczos"
