@@ -30,7 +30,7 @@ buildFuture = true
 
 [params]
     author = "Derek Bolyard"
-    info = "Triplet, Software Engineer, Cat-Lover, and soon maybe even Writer."
+    info = "Triplet, Software Engineer, Cat-Lover and soon, maybe even Writer"
     description = "A place for me to brain-dump to the internet. (and share cat pics)"
     keywords = "blog,developer,personal"
     avatarurl = "images/avatar.jpg"
